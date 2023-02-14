@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Lenguaje de marcas</title>
+    <link rel="icon" href="imagenes/icono.png">
+</head>
+
+<body>
+    <nav class=" navbar navbar-expand-md bg-dark navbar-dark ">
+        <a class="navbar-brand " href="# ">Blog de XML y JSON</a>
+        <button class="navbar-toggler " type="button " data-toggle="collapse " data-target="#collapsibleNavbar ">
+        <span class="navbar-toggler-icon "></span>
+      </button>
+        <div class="collapse navbar-collapse " id="collapsibleNavbar ">
+            <ul class="navbar-nav ">
+                <li class="nav-item ">
+                    <a class="nav-link " href="http://127.0.0.1:5500/menu.html# ">Home</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link " href="https://www.altova.com/xmlconversiontool-a ">XML</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link " href="https://www.softzone.es/windows/como-se-hace/archivos-json/ ">JSON</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link " href="http://127.0.0.1:5500/formulario.html ">Contacto</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid ">
+        <div class="row ">
+            <div class="col-md-3 col-sm-12 ">
+                <h4>Categorías</h4>
+                <select onchange="window.location.href=this.value ">
+                    <option value="https://madrid.omniaestudio.es/diseno-y-desarrollo-web-madrid/?gclid=CjwKCAiA_6yfBhBNEiwAkmXy52KH5p6TyqvUP5aqdSw-rNLiFHbh-zMaAwD02St5ZLZUcTo62eSYUhoCOfoQAvD_BwE ">Desarrollo web</option>
+                    <option value="https://www.armadilloamarillo.com/apps-a-medida/?gclid=CjwKCAiA_6yfBhBNEiwAkmXy5yImBvryWAmFboSsTymlLrkMcn9SSKwXjcXYe5ejnBfqmCtrDsS-DhoCGSIQAvD_BwE ">Desarrollo móvil</option>
+                </select>
+                <h4>Últimos posts</h4>
+                <select onchange="window.location.href=this.value ">
+                    <option value="https://clientesonyoffline.es/diseno-de-paginas-web.html?utm_source=Bing%20Dise%C3%B1o%20Web&utm_medium=Bing%20CPC&utm_campaign=Bing%20Dise%C3%B1o%20Web%20CPC&utm_term=desarrollo%20web&utm_content=dise%C3%B1o%20web ">Introducción a HTML</option>
+                    <option value="https://desarrolloweb.com/articulos/181.php ">Introducción a CSS</option>
+                    <option value="https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Introduction ">Introducción a JavaScript</option>
+                  </select>
+
+                <h4>Síguenos en redes sociales</h4>
+                <select onchange="window.location.href=this.value ">
+        
+                    <option value="https://es-es.facebook.com/ ">Facebook</option>
+                    <option value="https://twitter.com/?lang=es ">Twitter</option>
+                    <option value="https://www.instagram.com/ ">Instagram</option>
+                    <option value="https://github.com/">Github</option>
+                  </select>
+                </script>
+
+            </div>
+            <div class="col-md-9 col-sm-12 ">
+                <article>
+                    <h2>XML</h2>
+                    
+                    <div class="card" style="width: 12rem;">
+                        <img src="./imagenes/xml.png" class="card-img-top" alt="imagen.xml">
+                    </div>
+                    <p></p>
+                    <p>El lenguaje de marcado extensible (XML) es un lenguaje de marcado que se utiliza para almacenar y transportar datos. Aprende más sobre XML en este artículo.</p>
+                    <p></p>
+                    <p>XML es un lenguaje de marcado creado en 1996 como una alternativa más sencilla y fácil de usar a SGML, que era mucho más complejo y pesado. Fue diseñado para describir datos estructurados y su contenido de una forma más clara tanto para los humanos como para las máquinas. XML es extensible, lo que significa que se pueden crear nuevas etiquetas y definir nuevos elementos fácilmente para adaptarse a diversas necesidades de la industria y el desarrollo de software.</p>
+                </article>
+                <article>
+                    <h2>JSON</h2>
+                    <div class="card" style="width: 14rem;">
+                        <img src="./imagenes/png-transparent-yaml-computer-icons-xml-document-file-format-mp4-icon-blue-angle-text.png" class="card-img-top" alt="imagen.JSON">
+                    </div>
+                    <p></p>
+                    <p>JSON (JavaScript Object Notation) es un formato ligero de intercambio de datos. Aprende más sobre JSON en este artículo.</p>
+                    <p></p>
+                    <p>JSON es un formato de intercambio de datos ligero, creado en 2001 por Douglas Crockford como alternativa a XML. Es popular en la web y en aplicaciones móviles debido a su simplicidad, eficiencia y facilidad de uso con muchos lenguajes de programación. Utiliza pares de clave-valor y estructuras de datos anidadas que se pueden representar como objetos, matrices y valores simples.
+
+
+
+                    </p>
+                </article>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
