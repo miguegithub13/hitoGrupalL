@@ -1,0 +1,88 @@
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    color: white;
+}
+
+
+/* Estilos para el contenedor principal */
+
+.container-fluid {
+    padding-top: 20px;
+}
+
+body {
+    background-color: #9c9c9c;
+}
+
+
+/* Estilos para la columna de la izquierda */
+
+.col-md-3 {
+    background-color: #bebebe;
+    padding: 15px;
+    border: 1px solid #b6b6b6;
+}
+
+.col-md-3 img {
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 50%;
+}
+
+
+/* Estilos para los artículos */
+
+ículos */ article {
+    margin-bottom: 20px;
+}
+
+article h2 {
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 769px) {
+    /* mostrar la barra de navegación en pantallas más grandes */
+    .navbar {
+        display: block;
+    }
+}
+
+.col-md-3 {
+    border: none;
+    margin-bottom: 20px;
+}
+
+
+/* Estilos para los artículos */
+
+article {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+select {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #555;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    select {
+        max-width: 15em;
+    }
+}
